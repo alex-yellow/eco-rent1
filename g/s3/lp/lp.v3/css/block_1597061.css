@@ -1,0 +1,309 @@
+.lp-header-subtitle {
+    color: #444444;
+    font-weight: normal;
+    margin: 0 auto 16px;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media all and (min-width: 600px) {
+    .lp-header-subtitle {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media all and (min-width: 1380px) {
+    .lp-header-subtitle {
+        font-size: 20px;
+    }
+}
+
+.inverse .lp-header-subtitle {
+    color: #fff;
+}
+
+.lp-header-subtitle span {
+    font-weight: bold;
+    display: block;
+}
+
+.lp-reviews-7 {
+    padding: 48px 0;
+}
+
+.lp-reviews-7 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7 {
+        padding: 64px 0;
+    }
+}
+
+.lp-reviews-7-title {
+    margin: 0 0 32px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7-title {
+        margin-bottom: 48px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .lp-reviews-7-title {
+        width: 912px;
+        margin: 0 auto 48px;
+    }
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7-items {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
+
+@media all and (min-width: 960px) {
+    .lp-reviews-7-items {
+        margin-left: -24px;
+        margin-right: -24px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .lp-reviews-7-items {
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+}
+
+@media all and (min-width: 1380px) {
+    .lp-reviews-7-items {
+        margin-left: -16px;
+        margin-right: -16px;
+    }
+}
+
+.lp-reviews-7-items__item {
+    margin-bottom: 32px;
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7-items__item {
+        width: 276px;
+        margin: 0 12px 32px;
+    }
+}
+
+@media all and (min-width: 960px) {
+    .lp-reviews-7-items__item {
+        width: 432px;
+        margin: 0 24px 48px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .lp-reviews-7-items__item {
+        width: 564px;
+        margin: 0 12px 48px;
+    }
+}
+
+@media all and (min-width: 1380px) {
+    .lp-reviews-7-items__item {
+        width: 628px;
+        margin: 0 16px 48px;
+    }
+}
+
+.lp-reviews-7-yt-player {
+    height: 100%;
+}
+
+.lp-reviews-7-items__item-video {
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-bottom: 16px;
+    font-size: 0;
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7-items__item-video {
+        height: 155px;
+    }
+}
+
+@media all and (min-width: 960px) {
+    .lp-reviews-7-items__item-video {
+        height: 243px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .lp-reviews-7-items__item-video {
+        height: 318px;
+    }
+}
+
+@media all and (min-width: 1380px) {
+    .lp-reviews-7-items__item-video {
+        height: 354px;
+    }
+}
+
+.lp-reviews-7-items__item-video-default {
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    position: relative;
+}
+
+.lp-reviews-7-items__item-video-default video {
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    outline: none;
+}
+
+.lp-reviews-7-items__item-video-default-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.lp-reviews-7-items__item-video iframe {
+    width: 100%;
+    min-height: 162px;
+    height: calc((100vw - 32px)/16*9);
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7-items__item-video iframe {
+        height: 100%;
+    }
+}
+
+.lp-reviews-7-items__item-title {
+    margin: 0 0 8px;
+    letter-spacing: 0.01em;
+}
+
+.lp-reviews-7-items__item-text {
+    padding-top: 0;
+    letter-spacing: 0.01em;
+}
+
+.lp-reviews-7-buttons {
+    padding-top: 16px;
+    text-align: center;
+    margin: 0 0 -8px;
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7-buttons {
+        width: auto;
+        margin: 0 -4px -8px;
+        padding-top: 0;
+    }
+}
+
+.lp-reviews-7-buttons__item {
+    width: 100%;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+@media all and (min-width: 600px) {
+    .lp-reviews-7-buttons__item {
+        width: auto;
+        margin: 0 4px 8px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .lp-reviews-7.lp-reviews-7-three-col .lp-reviews-7-items__item {
+        width: 368px;
+    }
+
+    .lp-reviews-7.lp-reviews-7-three-col .lp-reviews-7-items__item-video {
+        height: 207px;
+    }
+}
+
+@media all and (min-width: 1380px) {
+    .lp-reviews-7.lp-reviews-7-three-col .lp-reviews-7-items__item {
+        width: 408px;
+    }
+
+    .lp-reviews-7.lp-reviews-7-three-col .lp-reviews-7-items__item-video {
+        height: 230px;
+    }
+}
+
+@media all and (min-width: 1200px) {
+    .lp-reviews-7.lp-reviews-7-four-col .lp-reviews-7-items__item {
+        width: 270px;
+    }
+
+    .lp-reviews-7.lp-reviews-7-four-col .lp-reviews-7-items__item-video {
+        height: 152px;
+    }
+}
+
+@media all and (min-width: 1380px) {
+    .lp-reviews-7.lp-reviews-7-four-col .lp-reviews-7-items__item {
+        width: 298px;
+    }
+
+    .lp-reviews-7.lp-reviews-7-four-col .lp-reviews-7-items__item-video {
+        height: 168px;
+    }
+}
+
+.lp-reviews-7.lp-reviews-7-align-left .lp-reviews-7-title {
+    text-align: left;
+    margin-left: 0;
+}
+
+.lp-reviews-7.lp-reviews-7-align-left .lp-reviews-7-buttons {
+    text-align: left;
+}
+
+.lp-reviews-7.lp-reviews-7-align-left .lp-reviews-7-items {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.lp-reviews-7.lp-reviews-7-align-right .lp-reviews-7-title {
+    text-align: right;
+    margin-right: 0;
+}
+
+.lp-reviews-7.lp-reviews-7-align-right .lp-reviews-7-buttons {
+    text-align: right;
+}
+
+.lp-reviews-7.lp-reviews-7-align-right .lp-reviews-7-items {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}

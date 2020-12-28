@@ -1,0 +1,64 @@
+.lpc-text-9 {
+	padding: 32px 12px;
+	position: relative;
+	text-align: center;
+}
+
+.lpc-text-9[data-media-source="tablet"] {padding: 64px 12px;}
+.lpc-text-9[data-media-source="desktop"] {padding: 80px 12px;}
+
+.lpc-text-9._left { text-align: left; }
+.lpc-text-9._right { text-align: right; }
+
+.lpc-text-9__wrap { position: relative; }
+
+.lpc-text-9__title {
+	margin-bottom: 16px;
+}
+
+.lpc-text-9[data-media-source="mobile"] .lpc-text-9__button {
+	display: block;
+	margin: 16px 0 0;
+}
+
+.lpc-text-9[data-media-source="tablet"] .lpc-text-9__buttons {
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.lpc-text-9[data-media-source="tablet"] .lpc-text-9__button, .lpc-text-9[data-media-source="desktop"] .lpc-text-9__button  {
+	display: inline-block;
+	margin: 16px 8px 0;
+}
+
+.lpc-text-9[data-media-source="desktop"] .lpc-text-5__main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lpc-text-9._left[data-media-source="desktop"] .lpc-text-5__main { 
+	margin-left: 0; 
+}
+.lpc-text-9._right[data-media-source="desktop"] .lpc-text-5__main { 
+	margin-right: 0; 
+}
+
+.lpc-text-9._center .lpc-text-9__text {
+    text-align: center;
+}
+
+.lpc-text-9._left .lpc-text-9__text {
+    text-align: left;
+}
+
+.lpc-text-9._right .lpc-text-9__text {
+    text-align: right;
+}
+
+.lpc-text-5__main {
+    width: 100%;
+}
+
+body .lpc-col-8-lg.lpc-text-5__main {
+    width: 100%;
+}

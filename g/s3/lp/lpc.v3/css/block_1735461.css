@@ -1,0 +1,40 @@
+.lpc-text-6 {
+	padding: 32px 12px;
+	position: relative;
+	text-align: center;
+}
+
+.lpc-text-6[data-media-source="tablet"] {padding: 64px 12px;}
+.lpc-text-6[data-media-source="desktop"] {padding: 80px 12px;}
+
+.lpc-text-6._left { text-align: left; }
+.lpc-text-6._right { text-align: right; }
+
+.lpc-text-6__wrap { position: relative; }
+
+.lpc-text-6__title {
+	margin-bottom: 16px;
+}
+
+.lpc-text-6[data-media-source="mobile"] .lpc-text-6__button {
+	display: block;
+	margin: 16px 0 0;
+}
+
+.lpc-text-6[data-media-source="tablet"] .lpc-text-6__buttons {
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+.lpc-text-6[data-media-source="tablet"] .lpc-text-6__button, .lpc-text-6[data-media-source="desktop"] .lpc-text-6__button  {
+	display: inline-block;
+	margin: 16px 8px 0;
+}
+
+.lpc-text-6[data-media-source="desktop"] .lpc-text-5__main {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.lpc-text-6._left[data-media-source="desktop"] .lpc-text-5__main { margin-left: 0; }
+.lpc-text-6._right[data-media-source="desktop"] .lpc-text-5__main { margin-right: 0; }

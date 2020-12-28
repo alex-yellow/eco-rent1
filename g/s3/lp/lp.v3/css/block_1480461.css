@@ -1,0 +1,8 @@
+.lp-photo-5 {
+	height: 100vh;
+	position: relative;
+}
+
+.lp-photo-5 .lp-block-bg {
+    background-image: url(../img/lp-foto-5-bg.jpg);
+}

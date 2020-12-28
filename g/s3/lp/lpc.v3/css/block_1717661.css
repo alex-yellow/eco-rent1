@@ -1,0 +1,122 @@
+.lpc-text-5 {
+	position: relative;
+}
+
+.lpc-text-5 .lp-block-bg {
+	background-image: url(../../../../../d/fgs16_v3photo-pic-131.jpg);
+}
+
+.lpc-text-5__row {
+	-webkit-box-pack: start;
+	-ms-flex-pack: start;
+	justify-content: flex-start;
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+}
+
+.lpc-text-5__text {
+	margin-top: 16px;
+}
+
+.lpc-text-5__buttons-wrap {
+	margin-top: 16px;
+}
+
+.lpc-text-5__buttons {
+	text-align: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin: 0 -16px -16px 0;
+	-ms-flex-wrap: wrap;
+	flex-wrap: wrap;
+}
+
+.lpc-text-5__button {
+	display: block;
+	margin: 0 16px 16px 0;
+	-webkit-box-flex: 1;
+	-ms-flex: 1 1 auto;
+	flex: 1 1 auto;
+	width: 100%;
+}
+
+.lpc-text-5._center .lpc-text-5__row {
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+}
+
+.lpc-text-5._right .lpc-text-5__row {
+	-webkit-box-pack: end;
+	-ms-flex-pack: end;
+	justify-content: flex-end;
+}
+
+.lpc-text-5[data-media-source="mobile"] {
+	padding: 32px 0;
+}
+
+.lpc-text-5[data-media-source="mobile"] .lpc-text-5__inner-wrap {
+	padding: 24px 16px;
+}
+
+.lpc-text-5[data-media-source="tablet"] {
+	padding: 56px 0;
+}
+
+.lpc-text-5[data-media-source="tablet"] .lpc-text-5__wrap {
+	min-height: 480px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.lpc-text-5[data-media-source="tablet"] .lpc-text-5__inner-wrap {
+	padding: 24px;
+}
+
+.lpc-text-5[data-media-source="tablet"] .lpc-text-5__buttons {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.lpc-text-5[data-media-source="tablet"] .lpc-text-5__button {
+	width: auto;
+}
+
+.lpc-text-5[data-media-source="desktop"] {
+	padding: 80px 0;
+}
+
+.lpc-text-5[data-media-source="desktop"] .lpc-text-5__wrap {
+	min-height: 600px;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+
+.lpc-text-5[data-media-source="desktop"] .lpc-text-5__inner-wrap {
+	padding: 32px;
+}
+
+.lpc-text-5[data-media-source="desktop"] .lpc-text-5__buttons {
+	display: -webkit-inline-box;
+	display: -ms-inline-flexbox;
+	display: inline-flex;
+}
+
+.lpc-text-5[data-media-source="desktop"] .lpc-text-5__button {
+	width: auto;
+}
