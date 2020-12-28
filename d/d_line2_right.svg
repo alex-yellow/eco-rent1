@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="129" height="1289" viewBox="0 0 129 1289">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        opacity: 0.15;
+      }
+    </style>
+  </defs>
+  <path id="d_line2_right.svg" class="cls-1" d="M1546,25V24H1428v1h118Zm4.5-5a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,1550.5,20ZM1427,1308h1V24h-1V1308Z" transform="translate(-1426.5 -19.5)"/>
+</svg>

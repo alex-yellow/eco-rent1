@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="752.5" height="10" viewBox="0 0 752.5 10">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: none;
+        stroke: #fff;
+        stroke-width: 1px;
+        fill-rule: evenodd;
+        opacity: 0.3;
+      }
+    </style>
+  </defs>
+  <path id="d_line_r.svg" class="cls-1" d="M1177,90V89h783v1H1177Zm-4.5-5a4.5,4.5,0,1,1-4.5,4.5A4.5,4.5,0,0,1,1172.5,85Z" transform="translate(-1167.5 -84.5)"/>
+</svg>
